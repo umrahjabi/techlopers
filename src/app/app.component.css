@@ -1,0 +1,19 @@
+.btn-footer
+{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #1d3f66;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    font-size: 12px;
+    line-height: 21px;
+    border:none;
+}
+#cartDIV {
+    position: fixed;
+    top: 120px;
+    right: -10px;
+    z-index:5000;
+}

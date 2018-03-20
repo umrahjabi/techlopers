@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'service-list',
@@ -8,4 +9,12 @@ import { Component } from '@angular/core';
 
 export class LSSComponent{
   servicename : string ="Leased Service Sharing";
+
+  constructor(private route: Router) {}
+
+  lssmore():void
+    {
+      this.route.navigate(['morelss']);
+    } 
+ 
 }

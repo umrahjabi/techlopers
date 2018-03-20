@@ -1276,7 +1276,7 @@ input[type="submit"]:hover {
  }
 .we-item {
     text-align: center;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #425f7f;
     padding: 20px 10px 0px 10px;
     padding-bottom: 15px;
     -webkit-transition: all .3s;
@@ -1287,7 +1287,9 @@ input[type="submit"]:hover {
     overflow: hidden;
     transition: all .3s;
     z-index: 10;
+    background: #4ebbbd;
     cursor: pointer;
+    color:#ffffff;
 }
 .we-item p {
     font-size: 12px;

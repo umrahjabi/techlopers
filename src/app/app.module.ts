@@ -38,7 +38,8 @@ import { ContactComponent } from './pages/contact.component';
       {path:'ERP_Software_Solution',component:ERPSoftwareComponent},
       {path:'Digital_Marketing',component:DigitalComponent},
       {path:'SEO',component:SEOComponent},
-      {path:'Finance_CFO',component:FinanceComponent},
+      {path:'Finance_CFO',component:FinanceComponent},     
+
       {path:'LSS',component:LSSComponent},
       {path:'morelss',component:MoreLSSComponent},
       {path:'IT_Services',component:ITServicesComponent},

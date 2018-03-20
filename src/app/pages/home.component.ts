@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'java-list',
@@ -8,4 +9,12 @@ import { Component } from '@angular/core';
 
 export class HomeComponent{
   title : string ="Home Page";
+
+  constructor(private route: Router) {}
+
+  about():void
+    {
+      this.route.navigate(['about']);
+    } 
+
 }
