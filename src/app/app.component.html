@@ -1,0 +1,245 @@
+
+
+
+
+
+<div id="all-area" class="all-section">
+<!-- Header Area START -->
+  <header class="clearfix header" data-spy="affix" data-offset-top="60">
+
+			<!-- Start  Logo & Menu  -->
+			<div class="navbar navbar-default navbar-top">
+				<div class="container">
+					<div class="navbar-header">
+						<!-- Stat Toggle Nav Link For Mobiles -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+						<!-- End Toggle Nav Link For Mobiles -->
+						<div class="logo">
+							<a class="navbar-brand" [routerLink] = "['home']" (click)="setTitle( 'Techlopers Solution | Home' )">
+								<img alt="Logo" src="assets/images/logo.png" class="logostyle">
+							</a>
+						</div> <!-- /.logo -->
+					</div>
+					<div class="navbar-collapse collapse">
+						<!-- Start Navigation List -->
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="active" [routerLink] = "['home']" (click)="setTitle( 'Techlopers Solution | Home' )">Home</a></li>
+							<li><a [routerLink] = "['about']" (click)="setTitle( 'Techlopers Solution | About' )">About Us</a></li>
+							<li><a [routerLink] = "['whyUs']" (click)="setTitle( 'Why Us | Techlopers' )">Why Us</a></li>
+							<li>
+								<a [routerLink] = "['services']" (click)="setTitle( 'Services | Techlopers' )">Services</a>
+								<ul class="dropdown">
+								<li><a [routerLink] = "['Mobile_App_Development']" (click)="setTitle( 'Service | Mobile App Development' )">Mobile App Development</a></li>
+									<li><a [routerLink] = "['Web_Development']" (click)="setTitle( 'service | Web Development' )">Web Development</a></li>
+									<li><a [routerLink] = "['ERP_Software_Solution']" (click)="setTitle( 'service | ERP Software Solution' )">ERP Software Solution</a></li>
+									<li><a [routerLink] = "['Digital_Marketing']" (click)="setTitle( 'service | Digital_Marketing' )">Digital Marketing</a></li>
+									<li><a [routerLink] = "['SEO']" (click)="setTitle( 'service | Search Engine Optiization' )">SEO</a></li>
+									<li><a [routerLink] = "['Finance_CFO']" (click)="setTitle( 'Service | Finance & CFO' )">Finance & CFO</a></li>
+									<li><a [routerLink] = "['LSS']" (click)="setTitle( 'Service | Leased Service Sharing' )">LSS</a></li>
+									<li><a [routerLink] = "['IT_Services']" (click)="setTitle( 'Service | IT Services' )">IT Services</a></li>
+									<li><a [routerLink] = "['training']" (click)="setTitle( 'Service | Training' )">Training</a></li>
+								</ul>
+							</li>
+							<li><a [routerLink] = "['home']" (click)="setTitle( 'Techlopers Solution | Home' )">Product</a></li>
+							<li><a [routerLink] = "['partner']" (click)="setTitle( 'Partner' )">Partner</a></li>							
+							<li><a [routerLink] = "['contact']" (click)="setTitle( ' Contact' )">Contact</a></li>
+						</ul>
+						<!-- End Navigation List -->
+					</div>
+					<!-- /.navbar-collapse -->
+				</div> <!-- /.container -->
+
+				<!-- Mobile Menu Start -->
+				<ul class="wpb-mobile-menu">
+					<li><a class="active" [routerLink] = "['home']">Home</a></li>
+							<li><a [routerLink] = "['about']">About Us</a></li>
+							<li><a href="why_us.html">Why Us</a></li>
+							<li>
+								<ul class="dropdown">
+								<li><a href="mobile_app_development.html">Mobile App Development</a></li>
+									<li><a href="web_development.html">Web Developement</a></li>
+									<li><a href="ERP_software_solution.html">ERP Software Solution</a></li>
+									<li><a href="digital_marketing.html">Digital Marketing</a></li>
+									<li><a href="SEO.html">SEO</a></li>
+									<li><a href="finance&CFO.html">Finance & CFO</a></li>
+									<li><a href="LSS.html">LSS</a></li>
+									<li><a href="itservices.html">IT Services</a></li>
+									<li><a href="training.html">Training</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Product</a></li>
+							<li><a href="partner.html">Partner</a></li>							
+							<li><a href="contact.html">Contact</a></li>
+				</ul> <!-- /.wpb-mobile-menu -->
+      </div> <!-- /.navbar -->   
+			<!-- End Header Logo & Naviagtion -->
+		</header> <!-- /.header -->
+		<!--Header Area END -->
+		<router-outlet>  </router-outlet>
+
+	
+	
+	
+
+  <!-- Footer AREA START -->
+	<footer class="footer">
+		<div class="footer-main cbiz-bg section">
+			<div class="container">    
+				<div class="row">
+					<div class="widgets">
+						<div class="col-xs-12 col-sm-12 col-md-4">
+							<div class="widget logo">
+								<div class="wi-title">
+									<a href="index.html"><img src="assets/images/logo.png" alt="Logo" style="width:180px;"></a>
+								</div>
+								<div class="wi-content">
+									<p>TechLopers is an emerging growth company, led by an enthusiastic and energetic team, of young professionals. We aim to be a niche service company providing ‘I.T.’ and ‘CFO & Financial Accounting Reporting’ services. </p>
+									<ul class="wi-list">
+										<li>
+											<a href="#"><i class="fa fa-home"></i>E-218B, Sector 63, Noida, Up | India</a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-envelope-o"></i>info@techlopers.com</a>
+										</li>
+										<li>
+											<a href="#"><i class="fa fa-phone"></i>+91-8826998442</a>
+										</li>
+
+									</ul>
+								</div>
+							</div> <!-- /.widget -->
+						</div> <!-- /.col- -->
+						<div class="col-xs-12 col-sm-12 col-md-4">
+							<div class="widget">
+								<div class="wi-title">
+									 <h5>Popular Tags</h5>
+								</div>
+								<div class="wi-content wi-tags">
+									<ul>
+										<li><a href="#">Mobile App Development</a></li>
+										<li><a href="#">Web Development</a></li>
+										<li><a href="#">ERP Software Solution</a></li>
+										<li><a href="#">Digital Marketing</a></li>
+										<li><a href="#">SEO</a></li>
+										<li><a href="#">Finance & CFO</a></li>
+										<li><a href="#">LSS</a></li>
+										<li><a href="#">Training</a></li>
+									</ul>
+								</div> <!-- /.wi-content -->
+							</div> <!-- /.widget -->
+						<div class="widget">
+								<div class="wi-title">
+									 <h5>Quick Links</h5>
+								</div>
+								<div class="wi-content wi-tags">
+									<ul>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Why Us</a></li>
+										<li><a href="#">Service</a></li>
+										<li><a href="#">Product</a></li>
+										<li><a href="#">Partner</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</div> <!-- /.wi-content -->
+							</div> <!-- /.widget -->
+						</div> <!-- /.col- -->
+						<div class="col-xs-12 col-sm-12 col-md-4">
+							<div class="widget">
+								<div class="wi-title">
+									<h5>Latest News</h5>
+								</div>
+								<div class="wi-content wi-news">
+									 <ul>
+										 <li>
+											 <div class="news-left">
+												 <a href="#">
+													<img src="assets/images/1.jpg" alt="News">
+												</a>
+											 </div>    
+											 <div class="news-right">
+												 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+												 <div class="posted">
+													 <span class="post-date"><a href="#">Aug 05, 2017</a></span>
+													
+												</div>
+											</div> <!-- /.news-right -->
+										 </li>
+										 <li>
+											 <div class="news-left">
+												 <a href="#">
+													<img src="assets/images/2.jpg" alt="News">
+												</a>
+											 </div>    
+											 <div class="news-right">
+												 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+												 <div class="posted">
+													 <span class="post-date"><a href="#">Aug 05, 2017</a></span>
+												 
+												</div>
+											</div> <!-- /.news-right -->
+										 </li>
+									 </ul>
+								</div> <!-- /wi-content -->
+							</div> <!-- /.widget -->									
+						</div> <!-- /.col- -->
+					</div> <!-- /.widgets -->
+				</div> <!-- /.row -->  
+			</div> <!-- /.container -->
+		</div> <!-- /.footer-main -->
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 text-left">
+				&copy; 2016 Techlopers Solutions Pvt Ltd.
+			</div>
+			<div class="col-sm-6">
+					<div class="text-right">
+								<div class="wi-content wi-social">
+									<ul>
+										<li>
+											<a href="#">
+												<i class="fa normal-show fa-facebook"></i>
+												<i class="fa hover-show fa-facebook"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa normal-show fa-twitter"></i>
+												<i class="fa hover-show fa-twitter"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa normal-show fa-google-plus"></i>
+												<i class="fa hover-show fa-google-plus"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa normal-show fa-pinterest-p"></i>
+												<i class="fa hover-show fa-pinterest-p"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa normal-show fa-youtube"></i>
+												<i class="fa hover-show fa-youtube"></i>
+											</a>
+										</li>
+									</ul>
+								</div> <!-- /.wi-content -->
+							</div> <!-- /.widget -->
+			</div>
+			</div>
+			</div>
+		</div> <!-- /.copyright -->
+	</footer> <!-- /.footer -->
+	<!-- /Footer AREA END -->
+	
+	<!-- Go To Top Link -->
+	<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+</div>
+    
